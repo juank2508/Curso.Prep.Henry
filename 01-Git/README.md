@@ -5,7 +5,7 @@
       <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=01-Git">
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
+        Git es la herramienta que nos facilita el trabajo a la hora de revisar los cambios en nuestro codigo, que si realizamos una actualizacion y ya no funciona, podemos volver sin problemas a la ultima version funcional, ver cambios entre dos commit, es decir, que se modifico desde un momento a otro en un archivo, github es un servidor de git que nos permite subir nuestro codigo a la nube, publicarlo, compartirlo, trabajar de manera colaborativa
       </a>
     </td>
   </tr>

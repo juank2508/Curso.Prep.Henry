@@ -5,7 +5,7 @@
       <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
+        Bueno, esta clase nos habla de git, es una herramienta que vamos a utilizar mucho para trabajo colaborativo y remoto, control de cambios, volver a versiones anteriores, versionado, nos muestra los primeros pasos en salck, comunidad para postear dudas y colaborativa, no da una vision de los distintos editores de texto que tenemos a disposicion para empezar a programar, en mi caso me quede con visual estudio code ya que manejo windows y creo que se integra mejor con el sistema operativo, se instala node, necesario para realizar los homework, y nos entrega las primeras nociones de git
       </a>
     </td>
   </tr>
