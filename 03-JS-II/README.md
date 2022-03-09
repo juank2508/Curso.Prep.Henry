@@ -7,7 +7,7 @@
       <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=03-JS-II">
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
+        Se definen las expresiones, los tipos de expresiones, logicas, primarias, de asignacion, con efectos secundarios, y se definen los statements, los statements condicionales, los bucles, saltos y los expression statements.
       </a>
     </td>
   </tr>
