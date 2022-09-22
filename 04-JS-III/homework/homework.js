@@ -10,7 +10,8 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array.pop();
+  /*return array.pop();*/
+  return array[array.length-1];
 }
 
 
@@ -59,6 +60,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+ return palabras.join(" ");
 }
 
 
@@ -66,6 +68,13 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  /*for (let i=0; i < array.length; i++){
+    if (array[i]===elemento){
+      return true;
+    } 
+  }
+  return false;*/
+  return array.includes(elemento);
 }
 
 
@@ -73,6 +82,11 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  let suma=0;
+  for (i=0;i<numeros.length;i++){
+    suma+=numeros[i];
+  }
+  return suma;
 }
 
 
@@ -80,6 +94,12 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  let suma=0;
+  for (i=0;i<resultadosTest.length;i++){
+    suma+=resultadosTest[i];
+  }
+  let promedio=suma/(resultadosTest.length);
+  return promedio;
 }
 
 
@@ -87,6 +107,11 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  let bigest=0;
+  for (i=0;i<numeros.length;i++){
+    if (numeros[i]>bigest) bigest=numeros[i];
+  }
+  return bigest;
 }
 
 
@@ -94,6 +119,17 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+  var producto=1;
+  if (arguments===[]){
+    return 0;
+  }else if (arguments.length===1){
+    return arguments[0];
+  } else {
+    for (let i=0; i<arguments.length;i++){
+      producto*=arguments[i];
+    }
+    return producto;
+  }
 }
 
 
